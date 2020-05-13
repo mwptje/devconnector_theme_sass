@@ -116,6 +116,7 @@ img {
       }
     }
   }
+
   .profile-about {
     grid-area: about;
     text-align: center;
@@ -130,6 +131,7 @@ img {
   .profile-exp {
     grid-area: exp;
   }
+
   .profile-edu {
     grid-area: edu;
   }
@@ -167,3 +169,26 @@ img {
     }
   }
 }
+
+// Posts page
+.post-form-header {
+  padding: 0.5rem;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  & > div:first-child {
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+// responsiveness
+@import "mobile";

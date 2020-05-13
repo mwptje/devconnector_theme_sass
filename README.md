@@ -1,6 +1,6 @@
 # DevConnector Theme / UI
 
-Following Brad Traversy's Youtube course on creating a theme uisng Sass
+Following Brad Traversy's Youtube course on creating a theme uisng Sass [here](https://www.youtube.com/playlist?list=PLillGF-Rfqba3xeEvDzIcUCxwMlGiewfV)
 
 > Full theme with Sass (.scss) files
 
